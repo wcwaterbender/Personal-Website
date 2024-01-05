@@ -58,6 +58,34 @@ header.masthead > .overlay {
   padding-right: 200px;
 }
 
+.img-container {
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.newsletteroverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .newsletteroverlay {
+  opacity: .95;
+}
+
+#newsletter_desc{
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 200px;
+}
+
 
 #links{
   display: block;
